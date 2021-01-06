@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="advanced.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Google Search</title>
+    </head>
+    <body>
+        <nav>
+            <img src="google_logo.png">
+            <a href="index.html">Back to Google Search</a>
+        </nav>
+        <div class="main_section">
+            <h1>Advanced Search</h1>
+            <hr>
+            <form action="https://google.com/search" class="form" data-submitfalse ="q" method="GET">
+                <h3>Find pages with...</h3>
+                <div class="input_group">
+                    <label class="col-sm-2 col-form-label">all these words:</label>
+                    <div class="col-sm-5">
+                        <input class="form_control form-sm" name="as_q" type="text">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <label class="col-sm-2 col-form-label">this exact word or phrase:</label>
+                    <div class="col-sm-5">
+                        <input class="form_control form-sm" name="as_epq" type="text">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <label class="col-sm-2 col-form-label">any of these words:</label>
+                    <div class="col-sm-5">
+                        <input class="form_control form-sm" name="as_oq" type="text">
+                    </div>
+                </div>
+                <div class="input_group">
+                    <label class="col-sm-2 col-form-label">none of these words:</label>
+                    <div class="col-sm-5">
+                        <input class="form_control form-sm" name="as_eq" type="text">
+                    </div>
+                </div>
+                <div class="center">
+                    <input type="submit" class="btn" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

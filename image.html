@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Google Search</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Google Search</a></li>
+            </ul>
+        </nav>
+        <div class="central_section">
+            <img src="images_search.png" class="logo">
+            <form action="https://google.com/search" class="form" data-submitfalse ="q" method="GET">
+                <div class="input_group">
+                    <input type="text" name="q" class="search" autocapitalize="off" autocomplete="off" spellcheck="false" maxlength="2000">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input type="hidden" name="tbm" value="isch">
+            </form>
+        </div>
+    </body>
+</html>
